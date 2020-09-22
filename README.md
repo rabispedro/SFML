@@ -1,8 +1,8 @@
 ![logo](https://user-images.githubusercontent.com/42853022/93912700-75f0b200-fcda-11ea-8583-01787aeed884.png)
 
-Prototype Games in C++ and SFML following the book _Beginning C++ Game Programming - Second Edition_.
+Prototype Games in C++ and SFML following the book **Beginning C++ Game Programming - Second Edition**.
 
-Note: All games are made to _run in Linux_ with the following commands:
+Note: All games are made to **run in Linux** with the following commands:
 
 <h3>Commands:</h3>
 
