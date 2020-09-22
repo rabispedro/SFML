@@ -2,7 +2,7 @@
 
 Prototype Games in C++ and SFML following the book **Beginning C++ Game Programming - Second Edition**.
 
-Note: All games are made to **run in Linux** with the following commands:
+Note: All games are made to **run in Linux**.
 
 <h3>Commands:</h3>
 
