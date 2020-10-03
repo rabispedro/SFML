@@ -21,3 +21,8 @@ Done! (Though it lacks fanciness)
 Done! (But has nothing than a bouncing Ball and a Bat)
 
 ![Pong](https://user-images.githubusercontent.com/42853022/93911516-df6fc100-fcd8-11ea-97e2-c4b03b95a0c6.png)
+
+<h1>Zombie Attack</h1>
+Done! (With some minor issues)
+
+![zombies](https://user-images.githubusercontent.com/42853022/94982684-f8674600-0512-11eb-9795-ae83be9cd4df.png)
