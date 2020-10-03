@@ -36,7 +36,7 @@ void Zombie::spawn(float startX, float startY, int type, int seed){
 	srand((int)time(0)*seed);
 	
 	//	Somewhere between 80 and 100
-	float modifier = (rand()%MAX_VARIANCE)+OFFSET;
+	float modifier = (rand() % MAX_VARIANCE) + OFFSET;
 	
 	//	Express this as a fraction of 1
 	//	Now between 0.7 and 1
