@@ -95,5 +95,5 @@ class Player{
 		void increaseHealthLevel(int amount);
 		
 		//	How much health has the Player Currenctly got?
-		int getHealh();
+		int getHealth();
 };

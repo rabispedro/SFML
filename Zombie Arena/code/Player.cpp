@@ -71,7 +71,7 @@ Sprite Player::getSprite(){
 	return m_Sprite;
 }
 
-int Player::getHealh(){
+int Player::getHealth(){
 	return m_Health;
 }
 
