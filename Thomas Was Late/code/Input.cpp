@@ -29,5 +29,15 @@ void Engine::input(){
 			}
 		}//	if(event.type == Event::KeyPressed)
 	}//	while(m_Window.pollEvent(event))
+	
+	//	Handle input specific to Thomas
+	if(m_Thomas.handleInput()){
+		//	Play a jump sound
+	}
+	
+	//	Handle input specific to Bob
+	if(m_Bob.handleInput()){
+		//	Play a jump sound
+	}
 }
 

@@ -45,6 +45,3 @@ void Engine::run(){
 		draw();
 	}
 }
-
-
-
