@@ -30,4 +30,4 @@ Done! (With some minor issues)
 <h1>Thomas Was Late</h1>
 WIP! (Just Split-Screen/Fullscreen implemented)
 
-![thomas-C15](https://user-images.githubusercontent.com/42853022/95212176-cc262080-07c3-11eb-8989-0b5693e74829.png)
+![Thomas-C16](https://user-images.githubusercontent.com/42853022/95376504-906c8300-08b7-11eb-9382-d65adbd33560.png)
