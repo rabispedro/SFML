@@ -28,6 +28,6 @@ Done! (With some minor issues)
 ![zombies](https://user-images.githubusercontent.com/42853022/94982684-f8674600-0512-11eb-9795-ae83be9cd4df.png)
 
 <h1>Thomas Was Late</h1>
-WIP! (Just Split-Screen/Fullscreen implemented)
+WIP! (Level Editor and Collision implemented)
 
 ![Thomas-C16](https://user-images.githubusercontent.com/42853022/95376504-906c8300-08b7-11eb-9382-d65adbd33560.png)
