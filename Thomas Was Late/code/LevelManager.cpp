@@ -133,7 +133,3 @@ float LevelManager::getTimeLimit(){
 Vector2f LevelManager::getStartPosition(){
 	return m_StartPosition;
 }
-
-
-
-

@@ -4,6 +4,8 @@
 #include"Thomas.h"
 #include"Bob.h"
 #include"LevelManager.h"
+#include"SoundManager.h"
+#include"HUD.h"
 
 using namespace std;
 using namespace sf;
@@ -19,6 +21,14 @@ class Engine{
 		
 		//	A class to manage all the levels
 		LevelManager m_LM;
+		
+		//	Create a Sound Manager
+		SoundManager m_SM;
+		
+		//	The HUD
+		Hud m_Hud;
+		int m_FramesSinceLastHUDUpdate = 0;
+		int m_TargetFramesPerHUDUpdate = 500;
 		
 		const int TILE_SIZE = 50;
 		const int VERTS_IN_QUAD = 4;
@@ -71,6 +81,9 @@ class Engine{
 		//	Texture for the level tiles
 		Texture m_TextureTiles;
 		
+		//	A vector of Vector2f for the fire emitter locations
+		vector<Vector2f> m_FireEmitters;
+		
 		//	Private functions for internal use only
 		void input();
 		void update(float dtAsSeconds);
@@ -80,6 +93,9 @@ class Engine{
 		void loadLevel();
 		
 		bool detectCollisions(PlayableCharacter& character);
+		
+		//	Make a vector of the best places to emit sounds from
+		void populateEmitters(vector<Vector2f>& vSoundEmitters, int** arrayLevel);
 	
 	public:
 		//	The Engine constructor
