@@ -2,7 +2,7 @@
 
 Prototype Games in C++ and SFML following the book **Beginning C++ Game Programming - Second Edition**.
 
-Note: All games are made to **run in Linux**.
+Note: All games were made to **run in Linux** and need to have SFML already installed.
 
 <h3>Commands:</h3>
 
@@ -28,6 +28,6 @@ Done! (With some minor issues)
 ![zombies](https://user-images.githubusercontent.com/42853022/94982684-f8674600-0512-11eb-9795-ae83be9cd4df.png)
 
 <h1>Thomas Was Late</h1>
-WIP! (Level Editor and Collision implemented)
+Done! (But can't implement GLSL shaders)
 
-![Thomas-C16](https://user-images.githubusercontent.com/42853022/95376504-906c8300-08b7-11eb-9382-d65adbd33560.png)
+![Thomas-END](https://user-images.githubusercontent.com/42853022/95640076-6494fd00-0a71-11eb-93cf-58a0f0ca6a00.png)
