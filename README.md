@@ -6,6 +6,10 @@ Note: All games were made to **run in Linux** and need to have SFML already inst
 
 <h3>SFML Install:</h3>
 
+```sudo apt-get install libsfml-dev```
+
+Link for more information:
+
 https://www.sfml-dev.org/tutorials/2.5/start-linux.php
 
 <h3>Commands:</h3>
