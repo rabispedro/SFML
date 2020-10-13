@@ -4,6 +4,10 @@ Prototype Games in C++ and SFML following the book **Beginning C++ Game Programm
 
 Note: All games were made to **run in Linux** and need to have SFML already installed.
 
+<h3>SFML Install:</h3>
+
+https://www.sfml-dev.org/tutorials/2.5/start-linux.php
+
 <h3>Commands:</h3>
 
 ```g++ -c *.cpp```
