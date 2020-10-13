@@ -12,7 +12,7 @@ Link for more information:
 
 https://www.sfml-dev.org/tutorials/2.5/start-linux.php
 
-<h3>Commands:</h3>
+<h3>Commands in code folder:</h3>
 
 ```g++ -c *.cpp```
 
