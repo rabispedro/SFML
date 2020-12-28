@@ -14,7 +14,7 @@ class GameEngine{
 
 		unique_ptr<ScreenManager> m_ScreenManager;
 
-		float m_FPS = 0.0f;
+		float m_FPS = 0;
 		Vector2f m_Resolution;
 
 		void handleInput();

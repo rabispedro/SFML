@@ -30,22 +30,22 @@ class ScreenManager : public ScreenManagerRemoteControl{
 		/*
 		*	FROM ScreenManagerRemoteControl INTERFACE
 		*/
-		void ScreenManagerRemoteControl::SwitchScreens(string screenToSwitchTo){
-			m_CurrentScreen = (""+screenToSwitchTo);
+		void SwitchScreens(string screenToSwitchTo){
+			m_CurrentScreen = "" + screenToSwitchTo;
 			m_Screens[m_CurrentScreen]->initialise();
 		}
 
-		void ScreenManagerRemoteControl::loadLevelInPlayMode(string screenToLoad){
-			// m_LevelManager.getGameObjects().clear();
-			// m_LevelManager.loadLevelInPlayMode(screenToLoad);
+		void loadLevelInPlayMode(string screenToLoad){
+			//	m_LevelManager.getGameObjects().clear();
+			//	m_LevelManager.loadGameObjectsForPlayMode(screenToLoad);
 			SwitchScreens("Game");
 		}
 
-		// vector<GameObject>& ScreenManagerRemoteControl::getGameObjects(){
-		// 	return m_LevelManager.getGameObjects();
-		// }
+		//	vector<GameObject>& ScreenManagerRemoteControl::getGameObjects(){
+		//	return m_LevelManager.getGameObjects();
+		//	}
 
-		// GameObjectSharer& shareGameObjectSharer(){
-		// 	return m_LevelManager;
-		// }
+		//	GameObjectSharer& shareGameObjectSharer(){
+		//	return m_LevelManager;
+		//	}
 };

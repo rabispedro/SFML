@@ -1,10 +1,15 @@
 #include"GameEngine.h"
 
+#define TITLE "Space Invaders++"
+
+using namespace std;
+using namespace sf;
+
 GameEngine::GameEngine(){
 	m_Resolution.x = VideoMode::getDesktopMode().width;
 	m_Resolution.y = VideoMode::getDesktopMode().height;
 
-	m_Window.create(VideoMode(m_Resolution.x, m_Resolution.y), "Space Invaders++", Style::Default);
+	m_Window.create(VideoMode(m_Resolution.x, m_Resolution.y), TITLE, Style::Default);
 
 	m_ScreenManager = unique_ptr<ScreenManager>(new ScreenManager(Vector2i(m_Resolution.x, m_Resolution.y)));
 }

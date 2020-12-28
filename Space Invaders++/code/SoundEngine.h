@@ -4,6 +4,9 @@
 
 #include<SFML/Audio.hpp>
 
+using namespace std;
+using namespace sf;
+
 class SoundEngine{
 	private:
 		SoundBuffer m_ShootBuffer;
