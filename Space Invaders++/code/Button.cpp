@@ -18,7 +18,7 @@ Button::Button(Vector2f position, float width, float height, int red, int green,
 	m_ButtonText.setString(text);
 	m_Font.loadFromFile("../fonts/Roboto-Light.ttf");
 	m_ButtonText.setFont(m_Font);
-	m_ButtonText.setPosition(Vector2f((position.x+textPaddingX*2), (position.y+textPaddingY)));
+	m_ButtonText.setPosition(Vector2f((position.x+textPaddingX), (position.y+textPaddingY)));
 
 	m_Collider = FloatRect(position, Vector2f(width,height));
 	cout<<"Button: "<<text<<"\n";

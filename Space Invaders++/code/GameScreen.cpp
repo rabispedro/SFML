@@ -58,6 +58,7 @@ void GameScreen::update(float fps){
 		}
 
 		if(WorldState::LIVES <= 0){
+			// if(true){
 			m_GameOver = true;
 		}
 	}
