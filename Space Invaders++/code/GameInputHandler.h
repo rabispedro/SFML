@@ -1,5 +1,7 @@
 #pragma once
 #include"InputHandler.h"
+#include"PlayerUpdateComponent.h"
+#include"TransformComponent.h"
 
 using namespace std;
 using namespace sf;
@@ -7,6 +9,11 @@ using namespace sf;
 class GameScreen;
 
 class GameInputHandler : public InputHandler{
+	private:
+		shared_ptr<PlayerUpdateComponent> m_PUC;
+		shared_ptr<TransformComponent> m_PTC;
+		bool m_ButtonPressed = false;
+
 	public:
 		void initialise();
 		void handleGamepad() override;

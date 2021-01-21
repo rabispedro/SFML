@@ -26,3 +26,7 @@ void GameUIPanel::draw(RenderWindow& window){
 	m_Text.setString(ss.str());
 	window.draw(m_Text);
 }
+
+BulletSpawner* GameScreen::getBulletSpawner(){
+	return this;
+}
