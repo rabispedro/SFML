@@ -3,6 +3,7 @@
 #include"GameInputHandler.h"
 #include"GameOverInputHandler.h"
 #include"BulletSpawner.h"
+#include"PhysicsEnginePlayMode.h"
 
 using namespace std;
 using namespace sf;
@@ -11,6 +12,7 @@ class GameScreen : public Screen, public BulletSpawner{
 	private:
 		ScreenManagerRemoteControl* m_ScreenManagerRemoteControl;
 		shared_ptr<GameInputHandler> m_GIH;
+		PhysicsEnginePlayMode m_PhysicsEnginePlayMode;
 
 		Texture m_BackgroundTexture;
 		Sprite m_BackgroundSprite;
