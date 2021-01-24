@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"InvaderUpdateComponent.h"
 #include"BulletSpawner.h"
 #include"WorldState.h"

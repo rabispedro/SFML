@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"GameOverUIPanel.h"
 #include"GameScreen.h"
 

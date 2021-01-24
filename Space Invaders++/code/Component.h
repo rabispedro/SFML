@@ -1,5 +1,6 @@
 #pragma once
 #include<string>
+#include<SFML/Graphics.hpp>
 #include"GameObjectSharer.h"
 
 using namespace std;

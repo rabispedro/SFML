@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"PlayerUpdateComponent.h"
 #include"WorldState.h"
 

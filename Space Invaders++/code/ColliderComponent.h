@@ -1,5 +1,6 @@
 #pragma once
 #include<iostream>
+#include<SFML/Graphics.hpp>
 #include"Component.h"
 
 using namespace std;

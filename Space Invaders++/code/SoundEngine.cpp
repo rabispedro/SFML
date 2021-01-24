@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include<SFML/Audio.hpp>
 #include<assert.h>
 #include"SoundEngine.h"

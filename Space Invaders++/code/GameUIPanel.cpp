@@ -1,5 +1,6 @@
 #include"GameUIPanel.h"
 #include"WorldState.h"
+#include<SFML/Graphics.hpp>
 #include<sstream>
 
 using namespace std;

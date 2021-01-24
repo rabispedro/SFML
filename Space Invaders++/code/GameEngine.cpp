@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"GameEngine.h"
 
 #define TITLE "Space Invaders++"

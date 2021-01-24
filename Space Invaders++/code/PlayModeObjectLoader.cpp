@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include<iostream>
 #include<fstream>
 #include"PlayModeObjectLoader.h"

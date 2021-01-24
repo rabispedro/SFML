@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"TransformComponent.h"
 
 using namespace std;

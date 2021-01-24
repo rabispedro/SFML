@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"BulletUpdateComponent.h"
 #include"WorldState.h"
 

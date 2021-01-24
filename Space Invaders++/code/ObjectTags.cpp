@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"DevelopState.h"
 #include"ObjectTags.h"
 

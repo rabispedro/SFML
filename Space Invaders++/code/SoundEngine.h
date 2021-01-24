@@ -2,6 +2,7 @@
 #ifndef SOUND_ENGINE_H
 #define SOUND_ENGINE_H
 
+#include<SFML/Graphics.hpp>
 #include<SFML/Audio.hpp>
 
 using namespace std;

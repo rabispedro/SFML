@@ -1,10 +1,11 @@
 #pragma once
+#include<SFML/Graphics.hpp>
 #include<string>
 
 using namespace std;
 using namespace sf;
 
-static class ObjectTags{
+class ObjectTags{
 	public:
 		static const string START_OF_OBJECT;
 		static const string END_OF_OBJECT;

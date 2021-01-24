@@ -1,4 +1,6 @@
 #pragma once
+#include<SFML/Graphics.hpp>
+#include<memory>
 #include"UpdateComponent.h"
 #include"TransformComponent.h"
 #include"GameObject.h"

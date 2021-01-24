@@ -1,4 +1,5 @@
 #pragma once
+#include<SFML/Graphics.hpp>
 #include"UIPanel.h"
 
 using namespace std;

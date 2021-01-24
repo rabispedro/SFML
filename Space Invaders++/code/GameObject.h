@@ -2,6 +2,7 @@
 #include<SFML/Graphics.hpp>
 #include<vector>
 #include<string>
+#include<memory>
 #include"Component.h"
 #include"GraphicsComponent.h"
 #include"GameObjectSharer.h"

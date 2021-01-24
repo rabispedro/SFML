@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"RectColliderComponent.h"
 
 using namespace std;

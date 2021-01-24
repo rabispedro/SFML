@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"SelectScreen.h"
 #include"SelectUIPanel.h"
 #include"SelectInputHandler.h"

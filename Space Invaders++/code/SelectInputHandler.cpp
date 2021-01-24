@@ -1,6 +1,7 @@
 #include"SelectInputHandler.h"
 #include"SoundEngine.h"
 #include"WorldState.h"
+#include<SFML/Graphics.hpp>
 #include<iostream>
 
 using namespace std;

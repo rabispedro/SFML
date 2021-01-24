@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include<iostream>
 #include"GameObjectFactoryPlayMode.h"
 #include"TransformComponent.h"

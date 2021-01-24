@@ -1,7 +1,8 @@
 #include"BlueprintObjectParser.h"
 #include"ObjectTags.h"
+#include<SFML/Graphics.hpp>
 #include<iostream>
-#include<ifstream>
+#include<fstream>
 
 using namespace std;
 using namespace sf;
@@ -10,7 +11,7 @@ void BlueprintObjectParser::parseNextObjectForBlueprint(ifstream& reader, GameOb
 	string lineFromFile;
 	string value = "";
 
-	while(getline(reader, lineFromFile)){
+	while( (getline(reader, lineFromFile)) ){
 		if(lineFromFile.find(ObjectTags::COMPONENT) != string::npos){
 			value = extractStringBetweenTags(lineFromFile, ObjectTags::COMPONENT, ObjectTags::COMPONENT_END);
 			bp.addToComponentList(value);

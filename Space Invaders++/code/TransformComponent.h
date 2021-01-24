@@ -44,7 +44,7 @@ class TransformComponent : public Component{
 			return false;
 		}
 
-		void Component::start(GameObjectSharer* gos, GameObject* self);{
-
+		void Component::start(GameObjectSharer* gos, GameObject* self){
+			
 		}
 };

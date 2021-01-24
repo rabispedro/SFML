@@ -1,4 +1,5 @@
 #pragma once
+#include<SFML/Graphics.hpp>
 #include"Screen.h"
 #include"GameInputHandler.h"
 #include"GameOverInputHandler.h"

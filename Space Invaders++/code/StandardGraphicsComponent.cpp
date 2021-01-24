@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include<iostream>
 #include"StandardGraphicsComponent.h"
 #include"BitmapStore.h"
@@ -18,4 +19,3 @@ void StandardGraphicsComponent::draw(RenderWindow& window, shared_ptr<TransformC
 	m_Sprite.setPosition(t->getLocation());
 	window.draw(m_Sprite);
 }
-

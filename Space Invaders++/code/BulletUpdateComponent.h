@@ -1,4 +1,5 @@
 #pragma once
+#include<SFML/Graphics.hpp>
 #include<string>
 #include"UpdateComponent.h"
 #include"TransformComponent.h"

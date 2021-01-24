@@ -1,4 +1,6 @@
+#include<SFML/Graphics.hpp>
 #include"ScreenManager.h"
+#include<memory>
 
 using namespace std;
 using namespace sf;

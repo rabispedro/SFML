@@ -2,6 +2,7 @@
 #include<SFML/Graphics.hpp>
 #include<map>
 #include<iostream>
+#include<memory>
 #include"GameScreen.h"
 #include"ScreenManagerRemoteControl.h"
 #include"SelectScreen.h"

@@ -1,9 +1,12 @@
 #pragma once
+#include<SFML/Graphics.hpp>
 #include<string>
 #include"Component.h"
 
 using namespace std;
 using namespace sf;
+
+class Component;
 
 class UpdateComponent : public Component{
 	private:

@@ -1,4 +1,5 @@
 #pragma once
+#include<SFML/Graphics.hpp>
 #include"InputHandler.h"
 #include"PlayerUpdateComponent.h"
 #include"TransformComponent.h"

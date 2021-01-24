@@ -1,3 +1,4 @@
+#include<SFML/Graphics.hpp>
 #include"GameScreen.h"
 #include"GameUIPanel.h"
 #include"GameInputHandler.h"

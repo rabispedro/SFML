@@ -1,8 +1,9 @@
 #pragma once
+#include<SFML/Graphics.hpp>
 #include<string>
 #include<vector>
-	#include"GameObject.h"
-	#include"GameObjectSharer.h"
+#include"GameObject.h"
+#include"GameObjectSharer.h"
 
 using namespace std;
 using namespace sf;
