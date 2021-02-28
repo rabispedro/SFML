@@ -22,12 +22,6 @@ Button::Button(Vector2f position, float width, float height, int red, int green,
 	m_ButtonText.setPosition(Vector2f((position.x+textPaddingX), (position.y+textPaddingY)));
 
 	m_Collider = FloatRect(position, Vector2f(width,height));
-	cout<<"Button: "<<text<<"\n";
-	cout<<"x0: "<<position.x<<"\n";
-	cout<<"y0: "<<position.y<<"\n";
-	cout<<"x1: "<<width<<"\n";
-	cout<<"y1: "<<height<<"\n";
-	cout<<"\n";
 }
 
 void Button::draw(RenderWindow& window){

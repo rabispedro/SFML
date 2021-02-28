@@ -27,7 +27,7 @@ void LevelManager::runStartPhase(){
 	for(it; it!=end; it++){
 		(*it).start(this);
 	}
-	
+
 	activateAllGameObjects();
 }
 

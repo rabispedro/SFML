@@ -9,7 +9,8 @@ using namespace sf;
 class BulletSpawner;
 
 void GameInputHandler::initialise(){
-
+	m_PUC = static_pointer_cast<PlayerUpdateComponent>(getPointerToScreenManagerRemoteControl()->shareGameObjectSharer().findFirstObjectWithTag("Player").getComponentByTypeAndSpecificType("update","player"));
+	m_PTC = getPointerToScreenManagerRemoteControl()->shareGameObjectSharer().findFirstObjectWithTag("Player").getTransformComponent();
 }
 
 void GameInputHandler::handleGamepad(){
@@ -29,7 +30,6 @@ void GameInputHandler::handleGamepad(){
 	//	Has the player pressed the B button?
 	if(Joystick::isButtonPressed(0, 1)){
 		m_ButtonPressed = true;
-		
 	}
 
 	//	Has the player just released the B button?
@@ -42,9 +42,8 @@ void GameInputHandler::handleGamepad(){
 		spawnLocation.x = (m_PTC->getLocation().x + m_PTC->getSize().x/2.0f);
 		spawnLocation.y = m_PTC->getLocation().y;
 
-		static_cast<GameScreen*>(getmParentScreen())->spawnBullet(spawnLocation, true);
+		static_cast<GameScreen*>(getmParentScreen())->getBulletSpawner()->spawnBullet(spawnLocation, true);
 	}
-
 }
 
 void GameInputHandler::handleKeyPressed(Event& event, RenderWindow& window){
@@ -65,7 +64,6 @@ void GameInputHandler::handleKeyPressed(Event& event, RenderWindow& window){
 	if(event.key.code == Keyboard::Down){
 		m_PUC->moveDown();
 	}
-
 }
 
 void GameInputHandler::handleKeyReleased(Event& event, RenderWindow& window){

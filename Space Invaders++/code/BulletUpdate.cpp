@@ -51,7 +51,7 @@ void BulletUpdateComponent::update(float fps){
 		if(m_MovingUp){
 			m_TC->getLocation().y -= (m_Speed*fps);
 		}else{
-			m_TC->getLocation().y -= (m_Speed/m_AlienBulletSpeedModifier*fps);
+			m_TC->getLocation().y += (m_Speed/m_AlienBulletSpeedModifier*fps);
 		}
 
 		if(m_TC->getLocation().y > WorldState::WORLD_HEIGHT || m_TC->getLocation().y < -2){
